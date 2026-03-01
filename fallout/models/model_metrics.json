@@ -1,0 +1,55 @@
+{
+  "mae": 0.0116,
+  "rmse": 0.0215,
+  "r2": 1.0,
+  "feature_columns": [
+    "product_category",
+    "gender",
+    "age_group",
+    "value_tier",
+    "month_name",
+    "quantity",
+    "price_per_unit",
+    "age",
+    "month",
+    "quarter",
+    "day_of_week",
+    "is_weekend",
+    "revenue_per_item"
+  ],
+  "target_column": "total_amount",
+  "cat_features": [
+    "product_category",
+    "gender",
+    "age_group",
+    "value_tier",
+    "month_name"
+  ],
+  "num_features": [
+    "quantity",
+    "price_per_unit",
+    "age",
+    "month",
+    "quarter",
+    "day_of_week",
+    "is_weekend",
+    "revenue_per_item"
+  ],
+  "training_rows": 800,
+  "test_rows": 200,
+  "feature_importance": {
+    "product_category": 0.0,
+    "gender": 0.0,
+    "age_group": 0.0,
+    "value_tier": 0.7851,
+    "month_name": 0.0,
+    "quantity": 0.1049,
+    "price_per_unit": 0.0745,
+    "age": 0.0,
+    "month": 0.0,
+    "quarter": 0.0,
+    "day_of_week": 0.0,
+    "is_weekend": 0.0,
+    "revenue_per_item": 0.0355
+  }
+}
